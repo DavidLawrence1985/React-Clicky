@@ -2,7 +2,7 @@
     width: 100%;
     text-align: center;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 1rem;
     border: 1px solid black;
     border-radius: .5rem;
     background: #25FF19;
@@ -10,23 +10,25 @@
 
   #main-title {
     font-family: 'Bangers', cursive;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 500;
 
+  }
+
+  #title-img {
+    width: 500px;
+    height: auto;
   }
 
   #rules {
     color: black;
     font-family: 'Paytone One', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
   }
   
   #score {
     font-family: 'Bangers', cursive;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 500;
   }
-  /* font-family: 'Sigmar One', cursive;
-font-family: 'Bangers', cursive;
-font-family: 'Paytone One', sans-serif; */
