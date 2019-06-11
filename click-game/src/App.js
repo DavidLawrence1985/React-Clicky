@@ -24,7 +24,7 @@ class App extends Component {
 
   handleClick = event => {
 
-    const name = event.target.alt;
+    const name = event.target.id;
     const clicked = this.state.clicked;
     console.log(name)
     if(clicked.indexOf(name) === -1){
@@ -65,7 +65,6 @@ class App extends Component {
             key={character.id}
             name={character.name}
             image={character.image}
-            clicked={character.clicked}
           />
         ))}
       </Wrapper>

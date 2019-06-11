@@ -5,8 +5,8 @@ function CharacterCard(props) {
   // console.log(props.clicked)
   return (
     <div className="card" onClick={props.handleClick}>
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
+      <div className="img-container" id={props.name}>
+        <img alt={props.name} src={props.image} id={props.name} />
       </div>
       
 
